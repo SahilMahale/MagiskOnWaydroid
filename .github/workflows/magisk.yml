@@ -32,7 +32,7 @@ on:
         - 24.2
         - 24.3
         - 25.2
-        - 26.1
+        - 28.1
         - canary
         - delta
       gapps_variant:
@@ -230,8 +230,8 @@ jobs:
               magisk_apk = "https://github.com/topjohnwu/Magisk/releases/download/v24.3/Magisk-v24.3.apk"
           if magisk_apk == "25.2":
               magisk_apk = "https://github.com/topjohnwu/Magisk/releases/download/v25.2/Magisk-v25.2.apk"
-          if magisk_apk == "26.1":
-              magisk_apk = "https://github.com/topjohnwu/Magisk/releases/download/v26.1/Magisk-v26.1.apk"
+          if magisk_apk == "28.1":
+              magisk_apk = "https://github.com/topjohnwu/Magisk/releases/download/v28.1/Magisk-v28.1.apk"
           if magisk_apk == "canary":
               magisk_apk = "https://raw.githubusercontent.com/topjohnwu/magisk-files/canary/app-debug.apk"
           if magisk_apk == "delta":
